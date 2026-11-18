@@ -34,14 +34,14 @@ def get_all_chrome_tab_urls():
             first_url = current_url
             urls.append(current_url)
         elif current_url == first_url:
-            # Abbiamo fatto un giro completo, usciamo dal ciclo
+            # Finito un giro completo, esce dal ciclo
             break
         else:
             urls.append(current_url)
         
         # 6. Passa alla tab successiva (Ctrl+Tab)
         pyautogui.hotkey('ctrl', 'tab')
-        time.sleep(0.5) # Dai tempo a Chrome di cambiare tab
+        time.sleep(0.5) # Da il tempo a Chrome di cambiare tab
 
     return urls
 
