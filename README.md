@@ -10,4 +10,4 @@ Quindi ho risolto il problema creando questo Script, cominciando a sperimentare 
 
 Il risultato finale riposto negli appunti, lo copio in un file .txt per salvare il tutto.
 
-In parte sviluppato con IA.
+In buona parte sviluppato con IA.
